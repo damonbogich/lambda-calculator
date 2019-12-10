@@ -2,8 +2,8 @@ import React from "react";
 
 const OperatorButton = (props) => {
   return (
-    <div>
-      <button>{props.display.value}</button>
+    <div className = "opContainer">
+      <button className = "opButtons">{props.display.char}</button>
     </div>
   );
 };
